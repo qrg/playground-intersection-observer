@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+html, body {
+  font-size: 18px;
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", 'Hiragino Sans', 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ Pro W3', '游ゴシック Medium', YuGothic, YuGothicM, sans-serif;
+}
+
+.root {
+  position: relative;
+  max-height: calc(100vh - 4rem);
+  display: flex;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.toc {
+  width: 30%;
+  position: sticky;
+  top: 0;
+}
+
+.main {
+  width: 70%;
+}
